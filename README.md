@@ -30,9 +30,19 @@ cd SentinelX2
 # Install dependencies
 pip install requests colorama
 
+## 💻 Usage
+
+# Normal scan
+python sentinelx2.py <target>
+
+# Deep scan
+python sentinelx2.py <target> --deep
+
+### Example:
+python sentinelx2.py sycet.org --deep
+
 ## 🖼 Screenshot
 
 ### Terminal Output
 ![Terminal Scan](screenshots/screenshot_terminal.png)
 
-> Shows banner, open ports, security headers, endpoints, and risk level.
