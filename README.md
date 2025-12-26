@@ -39,7 +39,7 @@ python sentinelx2.py <target>
 python sentinelx2.py <target> --deep
 
 ### Example:
-python sentinelx2.py sycet.org --deep
+python sentinelx2.py example.com --deep
 
 ## 🖼 Screenshot
 
