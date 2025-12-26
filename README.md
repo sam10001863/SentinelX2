@@ -46,3 +46,4 @@ python sentinelx2.py example.com --deep
 ### Terminal Output
 ![Terminal Scan](screenshots/screenshot_terminal.png)
 
+> Shows banner, open ports, security headers, endpoints, and risk level.
