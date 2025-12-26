@@ -29,3 +29,10 @@ cd SentinelX2
 
 # Install dependencies
 pip install requests colorama
+
+## 🖼 Screenshot
+
+### Terminal Output
+![Terminal Scan](screenshots/screenshot_terminal.png)
+
+> Shows banner, open ports, security headers, endpoints, and risk level.
