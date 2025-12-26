@@ -1,0 +1,3 @@
+VERSION = "1.0.0"
+NAME = "SentinelX"
+AUTHOR = "SAMRAT KHARAT"

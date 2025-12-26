@@ -1,0 +1,32 @@
+{
+    "target": "sycet.org",
+    "risk": "MEDIUM",
+    "data": {
+        "ports": [
+            80,
+            443
+        ],
+        "headers": {
+            "X-Frame-Options": "MISSING",
+            "Content-Security-Policy": "OK",
+            "Strict-Transport-Security": "MISSING",
+            "X-Content-Type-Options": "MISSING"
+        },
+        "endpoints": [
+            {
+                "path": "robots.txt",
+                "status": 200,
+                "length": 101
+            },
+            {
+                "path": "sitemap.xml",
+                "status": 200,
+                "length": 6091
+            }
+        ],
+        "https": {
+            "enabled": true,
+            "status": 200
+        }
+    }
+}
